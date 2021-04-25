@@ -133,7 +133,7 @@ There is a bug that is:
 
 ![image](https://user-images.githubusercontent.com/71245576/116010604-f8817d00-a5ed-11eb-9c0a-0cff7af24ea0.png)
 
-I did not find a good solution online but I solved it. It is obviously a problem about compactivity by kernels and pips. Only thing you need to do is to exchange the statement: args = parser.parse_args() as args = parser.parse_args(args=[]). It will be solved through this interface.
+I did not find a good solution online but I solved it. It is obviously a problem about compatibility by kernels and pips. Only thing you need to do is to exchange the statement: args = parser.parse_args() as args = parser.parse_args(args=[]). It will be solved through this interface.
 
 See the accuracy:
 
